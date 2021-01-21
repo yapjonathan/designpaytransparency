@@ -22,16 +22,26 @@ page = "https://www.notion.so/Design-Pay-Transparency-eb89eba7b02b49bf8df20974ba
   # the following adds the tag <meta name="title" content="Loconotion Test Site"/>
   [[site.meta]]
   name = "title"
-  property = "og:title"
   content = "Design Pay Transparency"
   [[site.meta]]
   name = "description"
+  content = "Democratising pay data and providing insights to empower people to start having a honest conversation about pay to shape a fairer and more transparent design industry."
+  [[site.meta]]
+  property = "og:title"
+  content = "Design Pay Transparency"
+  [[site.meta]]
   property = "og:description"
   content = "Democratising pay data and providing insights to empower people to start having a honest conversation about pay to shape a fairer and more transparent design industry."
   [[site.meta]]
-  name = "image"
   property = "og:image"
   content = "https://github.com/yapjonathan/designpaytransparency/blob/main/elements/social-image.png?raw=true"
+  [[site.meta]]
+  property = "og:url"
+  content = "https://designpaytransparency.asia/"
+  [[site.meta]]
+  property = "og:type"
+  content = "website"
+  
 
   ## Custom Fonts ##
   # you can specify the name of a google font to use on the site - use the font embed name
