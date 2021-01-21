@@ -22,10 +22,16 @@ page = "https://www.notion.so/Design-Pay-Transparency-eb89eba7b02b49bf8df20974ba
   # the following adds the tag <meta name="title" content="Loconotion Test Site"/>
   [[site.meta]]
   name = "title"
+  property = "og:title"
   content = "Design Pay Transparency"
   [[site.meta]]
   name = "description"
+  property = "og:description"
   content = "Democratising pay data and providing insights to empower people to start having a honest conversation about pay to shape a fairer and more transparent design industry."
+  [[site.meta]]
+  name = "image"
+  property = "og:image"
+  content = "https://github.com/yapjonathan/designpaytransparency/blob/main/elements/social-image.png?raw=true"
 
   ## Custom Fonts ##
   # you can specify the name of a google font to use on the site - use the font embed name
@@ -61,7 +67,7 @@ page = "https://www.notion.so/Design-Pay-Transparency-eb89eba7b02b49bf8df20974ba
   rel="icon" 
   sizes="16x16"
   type="image/png"
-  href="/elements/favicon.png"
+  href="https://github.com/yapjonathan/designpaytransparency/blob/main/elements/favicon.png?raw=true"
   
   # the following injects this tag in the in the <body>:
   #   <script src="custom-script.js" type="text/javascript"></script>
@@ -71,9 +77,9 @@ page = "https://www.notion.so/Design-Pay-Transparency-eb89eba7b02b49bf8df20974ba
   async=""
   src="https://www.googletagmanager.com/gtag/js?id=G-CM99WT3NBG"
 
-  [[site.inject.body.script]]
+  [[site.inject.head.script]]
   type="text/javascript"
-  src="/elements/google-analytics.js"
+  src="https://raw.githubusercontent.com/yapjonathan/designpaytransparency/main/elements/google-analytics.js"
 
   [[site.inject.body.script]]
   type="text/javascript"
