@@ -41,6 +41,13 @@ page = "https://www.notion.so/Design-Pay-Transparency-eb89eba7b02b49bf8df20974ba
   [[site.meta]]
   property = "og:type"
   content = "website"
+
+  [[site.script]]
+  async=""
+  src="https://www.googletagmanager.com/gtag/js?id=G-CM99WT3NBG"
+  [[site.script]]
+  type="text/javascript"
+  src="https://raw.githubusercontent.com/yapjonathan/designpaytransparency/main/elements/google-analytics.js"
   
 
   ## Custom Fonts ##
