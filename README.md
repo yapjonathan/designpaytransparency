@@ -1,3 +1,5 @@
+![Deploy to Pages](https://github.com/yapjonathan/designpaytransparency/workflows/Deploy%20to%20Pages/badge.svg?branch=main)
+
 # Action-NotionSite
 
 loconotion + Github Actions + Notion + GitHub Pages + Cloudflare Workers, Create a free website or build a blog.<br>
