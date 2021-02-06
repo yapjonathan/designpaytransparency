@@ -41,6 +41,9 @@ page = "https://www.notion.so/Design-Pay-Transparency-eb89eba7b02b49bf8df20974ba
   [[site.meta]]
   property = "og:type"
   content = "website"
+  [[site.meta]]
+  property = "og:author"
+  content = "Jonathan Yap"
 
   [[site.script]]
   async=""
@@ -102,23 +105,23 @@ page = "https://www.notion.so/Design-Pay-Transparency-eb89eba7b02b49bf8df20974ba
   type="text/javascript"
   src="/elements/custom-script.js"
 
-## Individual Page Settings ##
-# the [pages] table defines override settings for individual pages, by defining 
-# a sub-table named after the page url (or part of the url, but careful about
-# not using a string that appears in multiple page urls)
-# [pages]
-#   # the following settings will only apply to this page: 
-#   #   https://www.notion.so/d2fa06f244e64f66880bb0491f58223d
-#   [pages.d2fa06f244e64f66880bb0491f58223d]
-#     ## custom slugs ##
-#     # inside page settings, you can change the url for that page with the 'slug' key
-#     # e.g. page "/d2fa06f244e64f66880bb0491f58223d" will now map to "/games-list"
-#     slug = "games-list"
+# Individual Page Settings ##
+the [pages] table defines override settings for individual pages, by defining 
+a sub-table named after the page url (or part of the url, but careful about
+not using a string that appears in multiple page urls)
+[pages]
+  # the following settings will only apply to this page: 
+  #   https://www.notion.so/d2fa06f244e64f66880bb0491f58223d
+  [pages.2187e0cd1d0940fb82159783bd70121f]
+    ## custom slugs ##
+    # inside page settings, you can change the url for that page with the 'slug' key
+    # e.g. page "/d2fa06f244e64f66880bb0491f58223d" will now map to "/games-list"
+    slug = "resources"
 
-#     # change the description meta tag for this page only
-#     [[pages.d2fa06f244e64f66880bb0491f58223d.meta]] 
-#     name = "description"
-#     content = "A fullscreen list database page, now with a pretty slug"
+    # change the description meta tag for this page only
+    [[pages.d2fa06f244e64f66880bb0491f58223d.meta]] 
+    name = "Design Pay Transparency Resources"
+    content = "Material and resources that can help you in your job search."
 
 #     # change the title font for this page only
 #     [pages.d2fa06f244e64f66880bb0491f58223d.fonts]
