@@ -105,10 +105,10 @@ page = "https://www.notion.so/Design-Pay-Transparency-eb89eba7b02b49bf8df20974ba
   type="text/javascript"
   src="/elements/custom-script.js"
 
-# Individual Page Settings ##
-the [pages] table defines override settings for individual pages, by defining 
-a sub-table named after the page url (or part of the url, but careful about
-not using a string that appears in multiple page urls)
+## Individual Page Settings ##
+# the [pages] table defines override settings for individual pages, by defining 
+# a sub-table named after the page url (or part of the url, but careful about
+# not using a string that appears in multiple page urls)
 [pages]
   # the following settings will only apply to this page: 
   #   https://www.notion.so/d2fa06f244e64f66880bb0491f58223d
