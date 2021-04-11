@@ -2,7 +2,7 @@ name: Deploy to Pages
 
 on:
   schedule:
-    - cron: "*/20 * * * *"
+    - cron: "*/60 */6 * * *"
   workflow_dispatch:
     inputs:
     
