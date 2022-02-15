@@ -1,8 +1,13 @@
+# 
+# Copyright (C) 2020 ArtXIA <https://github.com/artxia>
+# <https://github.com/artxia/Action-NotionSite.git>
+#
+
 name: Deploy to Pages
 
 on:
-  schedule:
-    - cron: "*/60 */6 * * *"
+#  schedule:
+#    - cron: "*/60 */6 * * *"
   workflow_dispatch:
     inputs:
     
