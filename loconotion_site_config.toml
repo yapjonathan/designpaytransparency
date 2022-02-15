@@ -7,7 +7,7 @@ name = "Design Pay Transparency"
 
 # the notion.so page to being parsing from. This page will become the index.html
 # of the generated site, and loconotion will parse all sub-pages present on the page
-page = "https://designpaytransparency.notion.site/Design-Pay-Transparency-eb89eba7b02b49bf8df20974bab79d74"
+page = "https://designpaytransparency.notion.site/designpaytransparency/Design-Pay-Transparency-eb89eba7b02b49bf8df20974bab79d74"
 
 # optionally apply notion's dark mode, remove the line below to use the default light mode
 # theme = "dark"
