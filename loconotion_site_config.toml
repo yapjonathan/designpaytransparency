@@ -7,7 +7,7 @@ name = "Design Pay Transparency"
 
 # the notion.so page to being parsing from. This page will become the index.html
 # of the generated site, and loconotion will parse all sub-pages present on the page
-page = "https://www.notion.so/Design-Pay-Transparency-eb89eba7b02b49bf8df20974bab79d74"
+page = "https://designpaytransparency.notion.site/Design-Pay-Transparency-eb89eba7b02b49bf8df20974bab79d74"
 
 # optionally apply notion's dark mode, remove the line below to use the default light mode
 # theme = "dark"
@@ -119,7 +119,7 @@ page = "https://www.notion.so/Design-Pay-Transparency-eb89eba7b02b49bf8df20974ba
     slug = "resources"
 
     # change the description meta tag for this page only
-    [[pages.d2fa06f244e64f66880bb0491f58223d.meta]] 
+    [[pages.2187e0cd1d0940fb82159783bd70121f.meta]] 
     name = "Design Pay Transparency Resources"
     content = "Material and resources that can help you in your job search."
 
